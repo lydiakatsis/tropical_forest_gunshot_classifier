@@ -1,7 +1,19 @@
 # Tropical forest gunshot classifier
 
-CNN for gunshot classification trained with field data collected in tropical forests of Belize.
+Reproducability code for "Automated detection of gunshots in tropical forests using convolutional neural networks" (Katsis et. al. 2022, in prep.)
 
-Training script and model for gunshot classification from tropical forests.
+This associated data used for model training and validation (749 gunshots, and 35239 background sounds collected in tropical forest sites in Belize) is archived on [TBD]:
 
-The CNN was trained in Opensoundscape 0.5.0 using an extensive dataset of recordings collected in tropical forest sites in Belize. Training data comprised 749 gunshots, and 35239 background sounds from the same sites.
+[insert link when available]
+
+All scripts and workflow in this repo are based heavily on OpenSoundscape 0.5.0 http://opensoundscape.org/en/latest/, created by the Kitzes Lab.
+
+## Model training script ##
+train_GUNSHOT_classifier round 8.py contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
+
+## Final model ##
+Best.model.x contains the final, best-performing model that was used in the manuscript.
+
+## Prediction script ##
+XXX shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
+
