@@ -9,11 +9,11 @@ This associated data used for model training and validation (749 gunshots, and 3
 All scripts and workflow in this repo are based heavily on OpenSoundscape 0.5.0 http://opensoundscape.org/en/latest/, created by the Kitzes Lab.
 
 ## Model training script ##
-'train_GUNSHOT_classifier round 8.py' contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
+`train_GUNSHOT_classifier round 8.py` contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
 
 ## Final model ##
-'Best.model' contains the final, best-performing model that was used in the manuscript.
+`Best.model` contains the final, best-performing model that was used in the manuscript.
 
 ## Prediction script ##
-'predict_GUNSHOT_classifier.py' shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
+`predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
 
