@@ -1,4 +1,4 @@
-# gunshot_CNN
+# Tropical forest gunshot classifier
 
 CNN for gunshot classification trained with field data collected in tropical forests of Belize.
 
