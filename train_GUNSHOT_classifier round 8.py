@@ -4,19 +4,6 @@
 # # train_GUNSHOT_classifier
 # Opso 0.5.0 
 # Version date = 02/11/2021
-# Retraining model after feedback from Kitzes lab
-# 
-# Main changes:
-# - Instead of first augmentation, just upsampled gunshots
-# - batch size = 64
-# - no augmentation on validation data
-# 
-# Round 1: upsample gunshots to match number of background sounds (5000), augmentation, bactch size = 64
-# 
-# If have time, run models below
-# Round 2: upsample gunshots to match number of background sounds, no augmentation
-# Round 3: downsample background sounds to match number of gunshots, no augmentation
-# 
 # 
 
 # In[5]:
@@ -49,16 +36,14 @@ d = d.strftime('%y%m%d')
 outputs = './Outputs_round_8_/' #Where I want to save the outputs of this script.
 os.mkdir(outputs)
 model_save = './GUNSHOT_8_'+d+'/' #The location of my saved model.
- ####The location of my training data  For snowy will be /media/kitzeslab/Hardrive name
-data ='/media/kitzeslab/star_000/gunshot_cnn/'  
-data_dir = '/media/kitzeslab/star_000/gunshot_cnn/'
-data = '/media/kitzeslab/star_000/gunshot_cnn/mix_training_set/*/*/' #The location of my training data.
-label_data = '/media/kitzeslab/star_000/gunshot_cnn/mix_training_set/' # cd PThe location of the csv of labels
+####The location of my training data 
+data ='/media/gunshot_cnn/'  
+data_dir = '/media/gunshot_cnn/'
+data = '/media/gunshot_cnn/mix_training_set/*/*/' #The location of my training data.
+label_data = '/media/gunshot_cnn/mix_training_set/' # The location of the csv of labels
 
 
 train_path_background = [os.path.normpath(i) for i in glob(label_data +'train/gunshot/*.WAV')]
-# downsample background sounds to 5000
-#train_background_path = random.sample([os.path.normpath(i) for i in glob(label_data +'train/background/*.WAV')],10000)
 train_background_path = [os.path.normpath(i) for i in glob(label_data +'train/background/*.WAV')]
 train_path = train_path_background + train_background_path
 train_df = pd.DataFrame({'filename':train_path})
