@@ -15,5 +15,5 @@ train_GUNSHOT_classifier round 8.py contains the script used to train the gunsho
 Best.model.x contains the final, best-performing model that was used in the manuscript.
 
 ## Prediction script ##
-XXX shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
+XXX shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (seehttp://opensoundscape.org/en/latest/tutorials/predict_with_pretrained_cnn.html#Deprecated:-Using-LongAudioPreprocessor-to-predict-on-(un-split)-audio-files for how to predict on longer files) 
 
