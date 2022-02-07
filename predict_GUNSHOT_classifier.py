@@ -26,7 +26,7 @@ d = date.today()
 d = d.strftime('%y%m%d')
 o = "./Outputs_predictions" + d + "/"
 os.mkdir(o)
-i = "/media/kitzeslab/star_000/gunshot_cnn/bnr_all_test"  # Path to where all the prediction data is stored on hardrive
+i = "/media/gunshot_cnn/bnr_all_test"  # Path to where all the prediction data is stored on hardrive
 
 #==========Load Model==========
 model = Resnet18Binary(classes=['negative','positive'])
