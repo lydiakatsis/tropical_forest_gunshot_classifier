@@ -9,8 +9,8 @@ This associated data used for model training and validation (749 gunshots, and 3
 All scripts and workflow in this repo are based heavily on OpenSoundscape 0.5.0 http://opensoundscape.org/en/latest/, created by the Kitzes Lab.
 
 Requirements:
-Python 3.7
-Opensoundscape 0.6.1
+- Python 3.7
+- Opensoundscape 0.6.1
 
 
 ## Model training script ##
