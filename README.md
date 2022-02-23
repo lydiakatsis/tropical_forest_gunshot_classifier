@@ -10,7 +10,7 @@ All scripts and workflow in this repo are based heavily on OpenSoundscape 0.5.0 
 
 Requirements:
 - Python 3.7
-- Opensoundscape 0.6.1
+- Opensoundscape 0.5.0
 
 
 ## Model training script ##
