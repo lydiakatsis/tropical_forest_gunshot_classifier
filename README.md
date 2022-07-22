@@ -1,6 +1,6 @@
 # Tropical forest gunshot classifier
 
-Reproducability code for "Automated detection of gunshots in tropical forests using convolutional neural networks" (Katsis et. al. 2022, in prep.)
+Reproducability code for Katsis, L. K. D., et al. (2022). "Automated detection of gunshots in tropical forests using convolutional neural networks." Ecological Indicators 141: 109128.  https://www.sciencedirect.com/science/article/pii/S1470160X22006008 
 
 This associated data used for model training and validation (749 gunshots, and 35239 background sounds collected in tropical forest sites in Belize) is archived on Mendeley Data doi: 10.17632/x48cwz364j.2 https://data.mendeley.com/datasets/x48cwz364j/2
 
