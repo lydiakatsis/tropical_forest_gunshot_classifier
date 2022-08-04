@@ -15,7 +15,9 @@ Requirements:
 `train_GUNSHOT_classifier round 8.py` contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
 
 ## Final model ##
-`Best.model` contains the final, best-performing model that was used in the manuscript.
+`Best.model` contains the final, best-performing model that was used in the manuscript. This model only works with OpSo 0.5
+
+'Updated_gunshot_model.model' contains the final model that has been updated to load into OpSo 0.7
 
 ## Prediction script ##
 `predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
