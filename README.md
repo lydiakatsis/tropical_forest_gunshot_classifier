@@ -22,3 +22,6 @@ Requirements:
 ## Prediction script ##
 `predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
 
+# Gunshot classification GUI
+
+A user friendly and simplified jupyter notebook has been provided that easily allows you to classify your sound files. Reccomended to download Jupyter Lab Desktop and run the program from there.
