@@ -4,10 +4,10 @@ The gunshot classification model has been bundled up into a simple script that c
 
 ## Gunshot Classification Instructions ##
 
-1. Download Jupyter Lab Desktop from here https://github.com/jupyterlab/jupyterlab-desktop#download . This software can be downloaded on Windows and Mac computers.
+1. Download Jupyter Lab Desktop from [here] (https://github.com/jupyterlab/jupyterlab-desktop#download) . This software can be downloaded on Windows and Mac computers.
 2. Open the Jupyter Lab Desktop program from your computer. 
 3. Download the  .ipynb script in this folder, entitled 'Gunshot classifier start here! .ipynb'
-4. Drag and drop this script into the folder containing your sound files. This script is designed to analyse one SD card at a time, so it will not recurse through multiple folder levels.
+4. Drag and drop this script into the folder containing your sound files. This script is designed to analyse one SD card at a time, so it will not recurse through multiple folder levels. *If you files are on an external drive, then you must follow these steps to open Jupyter Desktop from the external drive•
 5. Follow the steps marked out on the script, and happy classifying!
 
 
