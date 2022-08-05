@@ -11,4 +11,8 @@ The gunshot classification model has been bundled up into a simple script that c
 5. Follow the steps marked out on the script, and happy classifying!
 
 
+*How to download the files*:
+
+<img width="1071" alt="Screenshot 2022-08-05 at 14 38 07" src="https://user-images.githubusercontent.com/72734966/183140838-9dae6da6-0780-4768-a9fb-900c3310bed9.png">
+
 ## Results Verification ##
