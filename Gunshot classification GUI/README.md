@@ -15,4 +15,7 @@ The gunshot classification model has been bundled up into a simple script that c
 
 <img width="1071" alt="Screenshot 2022-08-05 at 14 38 07" src="https://user-images.githubusercontent.com/72734966/183140838-9dae6da6-0780-4768-a9fb-900c3310bed9.png">
 
-## Results Verification ##
+## Gunshot Verification ##
+
+- This script allows quick filtering through the results by inspecting spectrograms and listening to sounds, and allows you to create an annotation table
+- Original version from Kitzes lab, at this [link](https://github.com/kitzeslab/bioacoustics-cookbook/blob/main/top-down-listening.ipynb)
