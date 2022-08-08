@@ -2,6 +2,8 @@
 
 The gunshot classification model has been bundled up into a simple script that can be used with minimal knowledge of Python programming. 
 
+**Gunshot detection will provide *a lot* of false positives intentionally, to avoid missing any gunshots. Therefore it is a must to verify the results. You will likely find a very small proportion of your results are true gunshots, but this process will substantially reduce the human effort needed to annotate results**
+
 ## Gunshot Classification Instructions ##
 
 1. Download Jupyter Lab Desktop [here](https://github.com/jupyterlab/jupyterlab-desktop#download) . This software can be downloaded on Windows and Mac computers.
@@ -16,6 +18,11 @@ The gunshot classification model has been bundled up into a simple script that c
 <img width="1071" alt="Screenshot 2022-08-05 at 14 38 07" src="https://user-images.githubusercontent.com/72734966/183140838-9dae6da6-0780-4768-a9fb-900c3310bed9.png">
 
 ## Gunshot Verification ##
+This script allows quick filtering through the results by inspecting spectrograms and listening to sounds, and allows you to create an annotation table. It also requires Juptyter Lab to open and run. 
 
-- This script allows quick filtering through the results by inspecting spectrograms and listening to sounds, and allows you to create an annotation table
+1. Open Jupyter Lab
+2. Drag and drop the file entitled 'Gunshot verification start here!.ipynb' into the folder containing the sound files you classified, which will also contain the results table from the gunshot classifier.
+3. Follow the steps on the script, which will order the results from highest score to lowest, and then play the sounds with associated spectrogram in that order, and allow you to interactively annotate with integer values.
+4. Once you are finished, it will save the results that you annotated into a csv labelled 'annotations.csv' in this same folder.
+
 - Original version from Kitzes lab, at this [link](https://github.com/kitzeslab/bioacoustics-cookbook/blob/main/top-down-listening.ipynb)
