@@ -2,7 +2,7 @@
 
 The gunshot classification model has been bundled up into a simple script that can be used with minimal knowledge of Python programming. 
 
-**Gunshot detection will provide *a lot* of false positives. Therefore it is a must to verify the results. You will likely find a very small proportion of your results are true gunshots, but this process will substantially reduce the human effort needed to annotate results**
+**Gunshot detection will provide *a lot* of false positives. Therefore it is a must to verify the results. You will likely find a very small proportion of your results are true gunshots, but this process will substantially reduce the human effort needed to annotate sound files and extract gunshots.**
 
 ## Gunshot Classification Instructions ##
 
