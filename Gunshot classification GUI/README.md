@@ -23,7 +23,7 @@ This script allows quick filtering through the results by inspecting spectrogram
 
 1. Open Jupyter Lab
 2. Drag and drop the file entitled 'Gunshot verification start here!.ipynb' into the folder containing the sound files you classified, which will also contain the results table from the gunshot classifier.
-3. 5. Double click on the file within the folder, which will open it up within Jupyter Lab Desktop.
+3. Double click on the file within the folder, which will open it up within Jupyter Lab Desktop.
 4. Follow the steps on the script, which will order the results from highest score to lowest, and then play the sounds with associated spectrogram in that order, and allow you to interactively annotate with integer values.
 5. Once you are finished, it will save the results that you annotated into a csv labelled 'annotations.csv' in this same folder.
 
