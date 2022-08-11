@@ -7,11 +7,10 @@ The gunshot classification model has been bundled up into a simple script that c
 ## Gunshot Classification Instructions ##
 
 1. Download Jupyter Lab Desktop [here](https://github.com/jupyterlab/jupyterlab-desktop#download) . This software can be downloaded on Windows and Mac computers.
-2. Open the Jupyter Lab Desktop program from your computer. 
-3. Download the files on this page (follow instructions below to do this).
-4. Drag and drop the file entitled 'Gunshot classifier start here! .ipynb' into the folder containing your sound files. This script is designed to analyse one SD card at a time, so it will not recurse through multiple folder levels. 
-5. Double click on the file within the folder, which will open it up within Jupyter Lab Desktop.
-6. Follow the steps marked out on the script, and happy classifying!
+2. Download the files on this page (follow instructions below to do this).
+3. Drag and drop the file entitled 'Gunshot classifier start here! .ipynb' into the folder containing your sound files. This script is designed to analyse one SD card at a time, so it will not recurse through multiple folder levels. 
+4. Double click on the file within the folder, which will open it up within Jupyter Lab Desktop.
+5. Follow the steps marked out on the script, and happy classifying!
 
 
 *How to download the files*:
@@ -21,7 +20,7 @@ The gunshot classification model has been bundled up into a simple script that c
 ## Gunshot Verification ##
 This script allows quick filtering through the results by inspecting spectrograms and listening to sounds, and allows you to create an annotation table. It also requires Juptyter Lab to open and run. 
 
-1. Open Jupyter Lab
+1. Make sure you have downlaoded Jupyter Lab Desktop.
 2. Drag and drop the file entitled 'Gunshot verification start here!.ipynb' into the folder containing the sound files you classified, which will also contain the results table from the gunshot classifier.
 3. Double click on the file within the folder, which will open it up within Jupyter Lab Desktop.
 4. Follow the steps on the script, which will order the results from highest score to lowest, and then play the sounds with associated spectrogram in that order, and allow you to interactively annotate with integer values.
