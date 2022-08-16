@@ -8,8 +8,8 @@
 * JupyterLab Desktop is a user friendly way of accessing a Python environment needed to run these scripts.
 * Download JupyterLab Desktop [here](https://github.com/jupyterlab/jupyterlab-desktop#download) . This software can be downloaded on Windows and Mac computers.
  * Once you have downloaded JupyterLab, the first time you open the program you will get a pop-up saying 'Set Python Environment'. Select the option saying 'Install Python environment using the bundled installer', and then select 'Apply and restart'
- * This will take you to a new installation pop-up - progress through this pop-up. There is no need to select anything additional on these pages apart from the defaults that are already selected. Once you have done this, it may take a few minutes to install the environment. 
-
+ * This will take you to a new installation pop-up - progress through this pop-up. There is no need to select anything additional on these pages apart from the defaults that are already selected. Once you have done this, it may take a few minutes to install the environment.
+ ![jupyter_lab_Screenshot](https://user-images.githubusercontent.com/72734966/184942600-ee3a72e5-928c-4056-b745-d9bee43ff03b.png)
 
 ## Gunshot Classification Instructions ##
 * Download the files on this page (follow instructions below to do this).
