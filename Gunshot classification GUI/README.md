@@ -9,6 +9,8 @@
   * Audio files in the form of .wav or .WAV of any length (minimum 4 seconds long)
 * **Can I access example files to trial to model?**
   * Yes - example data are found here. (link to be added).
+* **How good is the classifier?**
+  *  The classifier has been trained and tested specifically on sounds collected in tropical forests of Belize. It has been designed to give high recall (it shouldn't miss many gunshots), but at the cost of lower precision (there will be false positives). Therefore this classifier should be used to reduce a vast dataset into a smaller more manageable selection of files for manual review. Performance on data collected in different environments is unknown.
 
 ## Gunshot Classification Instructions ##
 
