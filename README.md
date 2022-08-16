@@ -15,7 +15,7 @@ Requirements:
 
 
 # Model training and classification #
-* Scripts used to reproduce the manuscript are found in the subfolder [Model and code] https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Model%20and%20code
+* Scripts used to reproduce the manuscript are found in the subfolder [Model and code](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Model%20and%20code)
 * This folder contains the training script, the final model, and the prediction script
 
 
