@@ -1,5 +1,5 @@
 # Contents #
-This folder contains the scripts used in the paper ['Automated detection of gunshots in tropical forests using convolutional neural networks'] https://doi.org/10.1016/j.ecolind.2022.109128
+This folder contains the scripts used in the paper 'Automated detection of gunshots in tropical forests using convolutional neural networks' https://doi.org/10.1016/j.ecolind.2022.109128
 
 Files include:
 * `train_GUNSHOT_classifier round 8.py` contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
