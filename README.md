@@ -11,20 +11,11 @@ Requirements:
 - Opensoundscape 0.5.0
 
 # Gunshot classification GUI #
-
-A user friendly and simplified jupyter notebook has been provided that easily allows you to classify your sound files. Reccomended to download Jupyter Lab Desktop and run the program from there.
+* A user friendly and simplified jupyter notebook has been provided that easily allows you to classify your sound files. Reccomended to download Jupyter Lab Desktop and run the program from there.
 
 
 # Model training and classification #
-* Scripts used to reproduce the manuscript are found in the subfolder 
-`train_GUNSHOT_classifier round 8.py` contains the script used to train the gunshot classification CNN, including the data augmentation pipeline.
-
-## Final model ##
-`Best.model` contains the final, best-performing model that was used in the manuscript. This model only works with OpSo 0.5
-
-'Updated_gunshot_model.model' contains the final model that has been updated to load into OpSo 0.7
-
-## Prediction script ##
-`predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
+* Scripts used to reproduce the manuscript are found in the subfolder [Model and code] https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Model%20and%20code
+* This folder contains the training script, the final model, and the prediction script
 
 
