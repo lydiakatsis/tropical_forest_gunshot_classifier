@@ -7,4 +7,3 @@ Files include:
 * `predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
 
 Note, this code is based upon Opensoundscape 0.5.0, and are not compatible with latest updates to the library. An updated version of the model that will load in Opensoundscape 0.7 is also found in this folder, but the prediction scripts will not work with it.
-* `Updated_gunshot_model.model` contains the final model that has been updated to load into OpSo 0.7
