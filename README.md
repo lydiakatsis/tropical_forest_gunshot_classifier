@@ -10,7 +10,7 @@ Requirements:
 - Python 3.7
 - Opensoundscape 0.6.0
 
-IMPORTANT - model currently must be opened without Opensoundscape 0.6.0 else weights don't load properl.
+IMPORTANT - model currently must be opened without Opensoundscape 0.6.0 else weights don't load correctly.
 
 
 # Model training and classification #
