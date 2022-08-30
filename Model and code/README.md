@@ -6,4 +6,4 @@ Files include:
 * `Best.model` contains the final, best-performing model that was used in the manuscript. This model only works with OpSo 0.5
 * `predict_GUNSHOT_classifier.py` shows how to use the model to classify gunshots in new datasets. Note that this model classifies 4-second .WAV files (see http://opensoundscape.org/en/latest/ for how to predict on longer files) 
 
-Note, this code is based upon Opensoundscape 0.5.0, and are not compatible with latest updates to the library. An updated version of the model that will load in Opensoundscape 0.7 is also found in this folder, but the prediction scripts will not work with it.
+Note, this code is based upon Opensoundscape 0.6.0, and are not compatible with latest updates to the library.
