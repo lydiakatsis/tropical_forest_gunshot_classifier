@@ -18,3 +18,7 @@ IMPORTANT - model currently must be opened without Opensoundscape 0.6.0 else wei
 * This folder contains the training script, the final model, and the prediction script
 
 
+
+# Gunshot classification GUI #
+* User-friendly scripts to run the classification algorithm on your data are found in the subfolder [Gunshot classification GUI]
+* This page contains instructions on running the scrips, and example data.
