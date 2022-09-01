@@ -20,5 +20,5 @@ IMPORTANT - model currently must be opened without Opensoundscape 0.6.0 else wei
 
 
 # Gunshot classification GUI #
-* User-friendly scripts to run the classification algorithm on your data are found in the subfolder [Gunshot classification GUI] (https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Gunshot%20classification%20GUI)
+* User-friendly scripts to run the classification algorithm on your data are found in the subfolder [Gunshot classification GUI](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Gunshot%20classification%20GUI)
 * This page contains instructions on running the scrips, and example data.
