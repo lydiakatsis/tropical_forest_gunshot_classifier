@@ -43,7 +43,7 @@ This script allows quick filtering through the results by inspecting spectrogram
 * **How good is the classifier?**
   *  The classifier has been trained and tested specifically on sounds collected in tropical forests of Belize. It has been designed to give high recall (it shouldn't miss many gunshots), but at the cost of lower precision (there will be false positives). Therefore this classifier should be used to reduce a vast dataset into a smaller more manageable selection of files for manual review. Performance on data collected in different environments is unknown.
 * **Can I access example files to trial to model?**
-  * Yes - example data are found here. (link to be added).
+  * Yes - example data are on this page.
 * **How do I download the files from this page?**
   * Files are located on the root page [here](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier). Click 'Code' and then 'Download zip'
   * <img width="700" alt="Screenshot 2022-08-05 at 14 38 07" src="https://user-images.githubusercontent.com/72734966/183140838-9dae6da6-0780-4768-a9fb-900c3310bed9.png">
