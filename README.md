@@ -4,6 +4,7 @@ Reproducability code for Katsis, L. K. D., et al. (2022). "Automated detection o
 
 This associated data used for model training and validation (749 gunshots, and 35239 background sounds collected in tropical forest sites in Belize) is archived on Mendeley Data doi: https://doi.org/10.17632/x48cwz364j.3 
 
+For detailed information and instructions on how to run predictions using this model, see the [Opensoundscape docs](http://opensoundscape.org/en/latest/index.html).
 
 Requirements:
 - Python 3.7
