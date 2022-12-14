@@ -13,13 +13,14 @@ Requirements:
 Classify files using the Google Colab script [here](https://colab.research.google.com/github/lydiakatsis/tropical_forest_gunshot_classifier/blob/main/Gunshot%20classification%20GUI/Gunshot_classifier_colab.ipynb)
 * Opensoundscape 0.7.1. 
 
+# Gunshot classification GUI #
+* User-friendly scripts to run the classification algorithm on your data are found in the subfolder [Gunshot classification GUI](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Gunshot%20classification%20GUI)
+* This page contains instructions on running the scrips, and example data.
+* Opensoundscape 0.7.1
+
 # Model training and classification #
 * Scripts used to reproduce the manuscript are found in the subfolder [Model and code](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Model%20and%20code)
 * This folder contains the training script, the final model, and the prediction script
 
 **IMPORTANT - this model currently must be opened within Opensoundscape 0.5.0 or 0.6.0 to replicate results in paper. Results differ if opened in later versions of opensoundscape**
 
-# Gunshot classification GUI #
-* User-friendly scripts to run the classification algorithm on your data are found in the subfolder [Gunshot classification GUI](https://github.com/lydiakatsis/tropical_forest_gunshot_classifier/tree/main/Gunshot%20classification%20GUI)
-* This page contains instructions on running the scrips, and example data.
-* Opensoundscape 0.7.1
